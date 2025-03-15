@@ -11,31 +11,20 @@
 
 - **Initialization:**  
   Initializes the system to the \($|0\cdots$ $0\rangle$\) state. In mathematical notation, the initial state is:
-
-  $|\psi\rangle = \begin{pmatrix} 1 \\ 0 \\ \vdots \\ 0 \end{pmatrix}$
+  ![alt text](assets/init.png)
 
 - **Quantum Gates:**  
   - **Hadamard Gate:** Creates superposition by transforming:
-
-    $|0\rangle \to \frac{|0\rangle + |1\rangle}{\sqrt{2}}, \quad |1\rangle \to \frac{|0\rangle - |1\rangle}{\sqrt{2}}$
+        - ![alt text](assets/hadamard_gate.png)
   - **Pauli Gates:**  
     - **Pauli-X:** Flips \($|0\rangle$\) and \($|1\rangle$\):
-
-      $X = \begin{pmatrix} 0 & 1 \\ 1 & 0 \end{pmatrix}$
+        - ![alt text](assets/pauli_x.png)
     - **Pauli-Y:** Applies a phase shift and flips states with \($\pm i$\) factors:
-        
-      $Y = \begin{pmatrix} 0 & -i \\ i & 0 \end{pmatrix}$
+        - ![alt text](assets/pauli_y.png)
     - **Pauli-Z:** Flips the phase of the \($|1\rangle$\) state:
-      
-      $Z = \begin{pmatrix} 1 & 0 \\ 0 & -1 \end{pmatrix}$
+        - ![alt text](assets/pauli_z.png)
   - **CNOT Gate:** A two-qubit gate that flips the target qubit if the control qubit is in the state \($|1\rangle$\). Its matrix representation in the computational basis is:
-  
-    $\text{CNOT} = \begin{pmatrix}
-    1 & 0 & 0 & 0 \\
-    0 & 1 & 0 & 0 \\
-    0 & 0 & 0 & 1 \\
-    0 & 0 & 1 & 0 
-    \end{pmatrix}$
+    - ![alt text](assets/cnot.png)
 
 ## Getting Started
 
