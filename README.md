@@ -11,11 +11,11 @@
 
 - **Initialization:**  
   Initializes the system to the \($|0\cdots$ $0\rangle$\) state. In mathematical notation, the initial state is:
-  ![alt text](assets/init.png)
+    - ![alt text](assets/init.png)
 
 - **Quantum Gates:**  
   - **Hadamard Gate:** Creates superposition by transforming:
-        - ![alt text](assets/hadamard_gate.png)
+    - ![alt text](assets/hadamard_gate.png)
   - **Pauli Gates:**  
     - **Pauli-X:** Flips \($|0\rangle$\) and \($|1\rangle$\):
         - ![alt text](assets/pauli_x.png)
